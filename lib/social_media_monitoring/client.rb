@@ -6,7 +6,7 @@ module SocialMediaMonitoring
 
     attr_reader :api_key
 
-    # Get a free api_key @ http://developer.apphera.com/sign_up
+    # Get a free api_key @ https://developer.apphera.com
     def initialize(api_key=nil)
       @api_key = api_key
       @api_key ||= SocialMediaMonitoring.api_key
