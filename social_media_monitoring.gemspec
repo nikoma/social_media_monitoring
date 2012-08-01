@@ -4,8 +4,8 @@ require File.expand_path('../lib/social_media_monitoring/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Nikolai Manek"]
   gem.email         = ["niko.manek@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Offers sentiment analysis, keyword tracking by connecting to Apphera API}
+  gem.summary       = %q{Keyword tracking, sentiment analysis}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
@@ -14,6 +14,7 @@ Gem::Specification.new do |gem|
   gem.name          = "social_media_monitoring"
   gem.require_paths = ["lib"]
   gem.version       = SocialMediaMonitoring::VERSION
-  s.add_runtime_dependency "httparty"
-  s.add_runtime_dependency "mash"
+  
+  gem.add_runtime_dependency "httparty"
+  gem.add_runtime_dependency "mash"
 end
