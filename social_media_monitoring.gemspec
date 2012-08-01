@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "social_media_monitoring"
   gem.require_paths = ["lib"]
   gem.version       = SocialMediaMonitoring::VERSION
+  s.add_runtime_dependency "httparty"
+  s.add_runtime_dependency "mash"
 end
