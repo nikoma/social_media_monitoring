@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.apphera.com/1/keywords?api_key=987634f072b7c51db349bda9fd5cd6da
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.1
+      Date:
+      - Wed, 01 Aug 2012 22:00:38 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '357'
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - ! '"5a65190ea6aaeb838d0f0dd84f2a7ac3"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a1669fc9fc6c1de25912d33fdd5604d7
+      X-Runtime:
+      - '0.010338'
+      X-Rack-Cache:
+      - miss
+    body:
+      encoding: UTF-8
+      string: ! '{"response":[{"created_at":"2012-08-01T06:19:50Z","id":550,"name":"berliner
+        bubbletea","updated_at":"2012-08-01T06:19:50Z"},{"created_at":"2012-08-01T06:19:50Z","id":550,"name":"berliner
+        bubbletea","updated_at":"2012-08-01T06:19:50Z"},{"created_at":"2012-08-01T06:19:50Z","id":550,"name":"berliner
+        bubbletea","updated_at":"2012-08-01T06:19:50Z"}],"count":3}'
+    http_version: 
+  recorded_at: Wed, 01 Aug 2012 22:00:42 GMT
+recorded_with: VCR 2.2.4

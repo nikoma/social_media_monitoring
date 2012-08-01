@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.apphera.com/1/keywords/550?api_key=987634f072b7c51db349bda9fd5cd6da
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.1
+      Date:
+      - Wed, 01 Aug 2012 22:27:36 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2091'
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - ! '"8e28eeb0a477fd94ac515e8acd413792"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 57caf318cb134b44241ae14d8df336f1
+      X-Runtime:
+      - '1.030111'
+      X-Rack-Cache:
+      - miss
+    body:
+      encoding: UTF-8
+      string: ! '{"response":[{"date":"2012-08-01T06:21:35+00:00","keyword_id":550,"keyword":"berliner
+        bubbletea","results":[{"ranking":1,"link_text":"Bubble''s Tea Bar - Mitte,
+        Berlin - Bubble Tea","link":"http://www.qype.com/place/1774041-Bubbles-Tea-Bar-Berlin"},{"ranking":2,"link_text":"Bubble
+        Tea in Berlin | Tipps auf Qype","link":"http://www.qype.com/de300-berlin/categories/1354-bubble-tea-in-berlin"},{"ranking":3,"link_text":"Bubble
+        Tea in Berlin: Die besten L\u00e4den f\u00fcrs Kultgetr\u00e4nk | berlin blog","link":"http://berlin.germanblogs.de/archive/2011/08/03/bubble-tea-in-berlin-die-besten-laeden-fuers-kultgetraenk.htm"},{"ranking":4,"link_text":"boobuk
+        - the bubble tea | Bubble Tea: der Tee mit Bubbles","link":"http://www.boobuk.com/"},{"ranking":5,"link_text":"Der
+        Bubble Tea Fun-Drink aus Fernost \u00bb BOBOQ","link":"http://www.boboq.de/"},{"ranking":6,"link_text":"Was
+        ist gef\u00e4hrlich an Bubble Tea? - Berliner Zeitung","link":"http://www.berliner-zeitung.de/gesundheit/warnungen-vor-modegetraenk-was-ist-gefaehrlich-an-bubble-tea-,10839396,16141164.html"},{"ranking":7,"link_text":"Berlin
+        - Alle Bubble-Tea Shops | teabubble.de Bubble Tea","link":"http://www.teabubble.de/bubble-tea-shop-ort/Berlin"},{"ranking":8,"link_text":"Bubble
+        O - Bubble Tea and Frozen Yogurt Oranienstra\u00dfe ... - Berlin","link":"http://berlin.kauperts.de/eintrag/Bubble-O-Bubble-Tea-and-Frozen-Yogurt-Oranienstrasse-38-10999-Berlin"},{"ranking":9,"link_text":"Bilder
+        zu berliner bubbletea","link":null},{"ranking":10,"link_text":"Krankenkasse
+        warnt vor Modegetr\u00e4nk Bubble Tea - Berlin.de","link":"http://www.berlin.de/special/gesundheit-und-beauty/ernaehrung/2523592-215-krankenkasse-warnt-vor-modegetraenk-bubb.html"},{"ranking":11,"link_text":"Bubble
+        Tea in Berlin? (laden, Cafe)","link":"http://www.gutefrage.net/frage/bubble-tea-in-berlin"}],"id":"W7-kbR0gSAi-Ihq3K47HrQ","_score":1.0,"_type":"results","_index":"ranks","_version":null,"sort":null,"highlight":null,"_explanation":null}],"count":1,"pagination":{"previous":null,"next":null,"current":1,"per_page":10,"count":1,"pages":1}}'
+    http_version: 
+  recorded_at: Wed, 01 Aug 2012 22:27:40 GMT
+recorded_with: VCR 2.2.4

@@ -4,9 +4,9 @@ require File.expand_path('../lib/social_media_monitoring/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Nikolai Manek"]
   gem.email         = ["niko.manek@gmail.com"]
-  gem.description   = %q{Offers sentiment analysis, keyword tracking by connecting to Apphera API}
+  gem.description   = %q{Offers sentiment analysis and search engine keyword tracking}
   gem.summary       = %q{Keyword tracking, sentiment analysis}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/nikoma/social_media_monitoring"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

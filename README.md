@@ -1,7 +1,7 @@
 # SocialMediaMonitoring
 
-TODO: Write a gem description
-
+SocialMediaMonitoring is a collection of API methods of the Apphera API. At this time it offers sentiment analysis and keyword tracking for Google search rankings.
+The API is currently in BETA. I will add more methods and documentation soon.
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -16,9 +16,59 @@ Or install it yourself as:
 
     $ gem install social_media_monitoring
 
-## Usage
+## Basic usage
 
-TODO: Write usage instructions here
+Sentiment Analysis
+
+require 'social_media_monitoring'
+client = SocialMediaMonitoring::Client.new("987634f072b7c51db349bda9fd5cd6da")
+=> #<SocialMediaMonitoring::Client:0x007fa19422d390 @api_key="987634f072b7c51db349bda9fd5cd6da", @api_path="">
+
+sentiment = client.sentiment("I love Ruby!","en")
+=> <Mash response=<Mash polarity=1 sentiment=0.325>>
+or
+sentiment = client.sentiment("amore","it")
+=> <Mash response=<Mash polarity=1 sentiment=0.325>>
+
+The sentiment analyzer returns a Mash which you can read like this:
+sentiment.response.polarity
+=> 1
+sentiment.response.sentiment
+=> 0.325
+
+At this time the API supports the following languages:
+English (en)
+German (de)
+Italian (it)
+Spanish (es)
+French (fr)
+Turk (tr)
+
+
+Keyword tracking
+
+require 'social_media_monitoring'
+client = SocialMediaMonitoring::Client.new("987634f072b7c51db349bda9fd5cd6da")
+=> #<SocialMediaMonitoring::Client:0x007fa19422d390 @api_key="987634f072b7c51db349bda9fd5cd6da", @api_path="">
+
+client.create_keyword("Ruby rulez")
+=> <Mash response=<Mash first_check="2012-07-02T23:36:32+00:00" id=553 keyword="Ruby rulez">>
+
+It responds with the keyword id, keyword and a date which tells you when you should expect results. The rankings will be updated frequently and
+the history is stored. This allows you to track keyword positions in search results over time.
+
+client.keywords
+
+=> returns a Mash with keywords you are tracking
+
+client.show_keyword(553)  #id of keyword
+
+=> returns current and historic rankings
+
+The search results are paginated
+
+You can get a free API key at https://developer.apphera.com
+
 
 ## Contributing
 

@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.apphera.com/1/sentiments?api_key=987634f072b7c51db349bda9fd5cd6da
+    body:
+      encoding: UTF-8
+      string: body=I%20love%20ruby&lang=en
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.1
+      Date:
+      - Wed, 01 Aug 2012 22:20:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '45'
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - ! '"12c84abae49f81af5a943c98c44b2dc0"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 08340f5e00add1d1e0e58e48e17a55e7
+      X-Runtime:
+      - '0.005529'
+      X-Rack-Cache:
+      - invalidate, pass
+    body:
+      encoding: UTF-8
+      string: ! '{"response":{"polarity":1,"sentiment":0.325}}'
+    http_version: 
+  recorded_at: Wed, 01 Aug 2012 22:20:46 GMT
+recorded_with: VCR 2.2.4
