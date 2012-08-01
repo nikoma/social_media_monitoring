@@ -9,7 +9,7 @@ class APIKeyNotSet   < StandardError; end
 
 module SocialMediaMonitoring
   
-  # Get your API key from http://developer.apphera.com/sign_up
+  # Get your API key from https://developer.apphera.com
   def self.api_key
     raise APIKeyNotSet if @api_key.nil?
     @api_key
