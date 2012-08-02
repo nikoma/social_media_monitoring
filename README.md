@@ -69,6 +69,10 @@ The search results are paginated
 
 You can get a free API key at https://developer.apphera.com
 
+KNOWN ISSUE:
+In case you get a "NoMethodError: undefined method `stringify_keys' for #<HTTParty::Response:0x007fa9231ab1b0>"
+- It's telling you that the api key is invalid and therefore can't handle the server response. I am working on it..
+
 
 ## Contributing
 
