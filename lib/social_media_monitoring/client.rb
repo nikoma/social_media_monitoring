@@ -13,7 +13,11 @@ module SocialMediaMonitoring
       @api_path = ''
 
     end
-
+    def categories(country)
+      results = Mash.new(self.class.get('/categories', :query => {:country => country}.merge(self.default_options)))
+    end
+    
+    
     def keywords
       results = Mash.new(self.class.get('/keywords', :query => self.default_options))
     end

@@ -12,7 +12,7 @@ VCR.configure do |c|
 end
 
 class VCRTest < Test::Unit::TestCase
-  $client = SocialMediaMonitoring::Client.new("987634f072b7c51db349bda9fd5cd6da")
+  $client = SocialMediaMonitoring::Client.new("8w7d64oqweryiqweo87qnxtqwi47xqn3i4tisq7")
 
   def test_keywords
     VCR.use_cassette('keywords') do
@@ -41,6 +41,13 @@ class VCRTest < Test::Unit::TestCase
     VCR.use_cassette('sentiment') do
       sample = "I love ruby"
       response = $client.sentiment(sample, "en").response.polarity
+      assert_equal 1, response.to_i
+    end
+  end
+  
+  def test_categories_de
+    VCR.use_cassette('categories_de') do
+      response = $client.categories("de").response
       assert_equal 1, response.to_i
     end
   end

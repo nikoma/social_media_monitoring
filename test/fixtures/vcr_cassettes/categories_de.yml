@@ -1,0 +1,38 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://127.0.0.1:3000/1/categories?api_key=8w7d64oqweryiqweo87qnxtqwi47xqn3i4tisq7&country=de
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 401
+      message: ! 'Unauthorized '
+    headers:
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 67d50b03e07292ba790d1971bef36da5
+      X-Runtime:
+      - '0.821607'
+      Content-Length:
+      - '1'
+      Server:
+      - WEBrick/1.3.1 (Ruby/1.9.3/2011-10-30)
+      Date:
+      - Thu, 02 Aug 2012 06:56:13 GMT
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: ! ' '
+    http_version: 
+  recorded_at: Thu, 02 Aug 2012 06:56:13 GMT
+recorded_with: VCR 2.2.4

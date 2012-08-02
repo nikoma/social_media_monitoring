@@ -20,7 +20,8 @@ Or install it yourself as:
 
 Sentiment Analysis
 
-require 'social_media_monitoring'
+require 'social_media_monitoring'  
+
 client = SocialMediaMonitoring::Client.new("987634f072b7c51db349bda9fd5cd6da")
 
 sentiment = client.sentiment("I love Ruby!","en")  
@@ -72,7 +73,11 @@ You can get a free API key at https://developer.apphera.com
 
 KNOWN ISSUE:
 In case you get a `"NoMethodError: undefined method `stringify_keys' for #<HTTParty::Response:0x007fa9231ab1b0>"`
-- It's telling you that the api key is invalid and therefore can't handle the server response. I am working on it..
+- It's telling you that the api key is invalid and therefore can't handle the server response. Please get a valid api key. 
+
+Frequent question  
+What is a Mesh?  
+please visit https://github.com/intridea/hashie  
 
 
 ## Contributing
