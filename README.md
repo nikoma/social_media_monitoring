@@ -47,8 +47,9 @@ At this time the API supports the following languages:
 
 Keyword tracking
 
-require 'social_media_monitoring'  
-`client = SocialMediaMonitoring::Client.new("987634f072b7c51db349bda9fd5cd6da")`  
+require 'social_media_monitoring'      
+`client = SocialMediaMonitoring::Client.new("987634f072b7c51db349bda9fd5cd6da")`
+  
 `=> #<SocialMediaMonitoring::Client:0x007fa19422d390 @api_key="987634f072b7c51db349bda9fd5cd6da", @api_path="">`  
 
 client.create_keyword("Ruby rulez")  
@@ -59,18 +60,18 @@ the history is stored. This allows you to track keyword positions in search resu
 
 client.keywords  
 
-=> returns a Mash with keywords you are tracking
+`=> returns a Mash with keywords you are tracking`
 
 client.show_keyword(553)  #id of keyword
 
-=> returns current and historic rankings
+`=> returns current and historic rankings`
 
 The search results are paginated
 
 You can get a free API key at https://developer.apphera.com
 
 KNOWN ISSUE:
-In case you get a "NoMethodError: undefined method `stringify_keys' for #<HTTParty::Response:0x007fa9231ab1b0>"
+In case you get a `"NoMethodError: undefined method `stringify_keys' for #<HTTParty::Response:0x007fa9231ab1b0>"`
 - It's telling you that the api key is invalid and therefore can't handle the server response. I am working on it..
 
 
