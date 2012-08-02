@@ -22,42 +22,42 @@ Sentiment Analysis
 
 require 'social_media_monitoring'
 client = SocialMediaMonitoring::Client.new("987634f072b7c51db349bda9fd5cd6da")
-=> #<SocialMediaMonitoring::Client:0x007fa19422d390 @api_key="987634f072b7c51db349bda9fd5cd6da", @api_path="">
 
-sentiment = client.sentiment("I love Ruby!","en")
-=> <Mash response=<Mash polarity=1 sentiment=0.325>>
+sentiment = client.sentiment("I love Ruby!","en")  
+`=> <Mash response=<Mash polarity=1 sentiment=0.325>>`
+
 or
 sentiment = client.sentiment("amore","it")
-=> <Mash response=<Mash polarity=1 sentiment=0.325>>
 
+`=> <Mash response=<Mash polarity=1 sentiment=0.325>>`  
 The sentiment analyzer returns a Mash which you can read like this:
-sentiment.response.polarity
-=> 1
-sentiment.response.sentiment
+
+sentiment.response.polarity  
+=> 1  
+sentiment.response.sentiment  
 => 0.325
 
-At this time the API supports the following languages:
-English (en)
-German (de)
-Italian (it)
-Spanish (es)
-French (fr)
-Turk (tr)
-
+At this time the API supports the following languages:  
+* English (en)  
+* German (de)  
+* Italian (it)  
+* Spanish (es)  
+* French (fr)  
+* Turkish (tr)  
 
 Keyword tracking
 
-require 'social_media_monitoring'
-client = SocialMediaMonitoring::Client.new("987634f072b7c51db349bda9fd5cd6da")
-=> #<SocialMediaMonitoring::Client:0x007fa19422d390 @api_key="987634f072b7c51db349bda9fd5cd6da", @api_path="">
+require 'social_media_monitoring'  
+`client = SocialMediaMonitoring::Client.new("987634f072b7c51db349bda9fd5cd6da")`  
+`=> #<SocialMediaMonitoring::Client:0x007fa19422d390 @api_key="987634f072b7c51db349bda9fd5cd6da", @api_path="">`  
 
-client.create_keyword("Ruby rulez")
-=> <Mash response=<Mash first_check="2012-07-02T23:36:32+00:00" id=553 keyword="Ruby rulez">>
+client.create_keyword("Ruby rulez")  
+`=> <Mash response=<Mash first_check="2012-07-02T23:36:32+00:00" id=553 keyword="Ruby rulez">>`
 
 It responds with the keyword id, keyword and a date which tells you when you should expect results. The rankings will be updated frequently and
 the history is stored. This allows you to track keyword positions in search results over time.
 
-client.keywords
+client.keywords  
 
 => returns a Mash with keywords you are tracking
 
