@@ -15,7 +15,7 @@ http_interactions:
       Server:
       - nginx/1.2.1
       Date:
-      - Fri, 03 Aug 2012 21:38:20 GMT
+      - Fri, 03 Aug 2012 22:46:45 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -31,9 +31,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - e00d41c309726975f610ef2ce14db1b1
+      - 0634c64d3fe7cdfb14ae71c0b98ecf51
       X-Runtime:
-      - '0.733733'
+      - '0.371968'
       X-Rack-Cache:
       - miss
     body:
@@ -275,5 +275,5 @@ http_interactions:
         ist zwar nicht so besonders, jedoch gibt es ein paar sch\u00f6ne Aquarien.
         Parkm\u00f6glichkeiten gibt es auch genug, super!","title":"Leckere Peking-Ente","review_date":"2012-02-11","rating":5.0,"content_provider":"Pointoo"},{"id":101728,"organization_id":282,"reviewer":"Stralsunner","reviewer_slug":"http://www.pointoo.de/user/Stralsunner/","reviewer_image":"http://media.pointoo.de/files/assets/profile_images/000/204/196/tiny/Picture0001.jpg?1335871039","body":"test","title":"","review_date":"2012-07-05","rating":5.0,"content_provider":"Pointoo"}],"count":25}'
     http_version: 
-  recorded_at: Fri, 03 Aug 2012 21:38:20 GMT
+  recorded_at: Fri, 03 Aug 2012 22:46:45 GMT
 recorded_with: VCR 2.2.4

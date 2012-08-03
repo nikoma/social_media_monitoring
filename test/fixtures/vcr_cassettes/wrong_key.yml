@@ -15,7 +15,7 @@ http_interactions:
       Server:
       - nginx/1.2.1
       Date:
-      - Fri, 03 Aug 2012 22:24:38 GMT
+      - Fri, 03 Aug 2012 23:05:27 GMT
       Content-Type:
       - text/html; charset=utf-8
       Transfer-Encoding:
@@ -29,14 +29,14 @@ http_interactions:
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - 6fc157cd807e9504d11f9d534661f542
+      - 463592036b6e165acf8bc13212f627ea
       X-Runtime:
-      - '0.004329'
+      - '0.004580'
       X-Rack-Cache:
       - miss
     body:
       encoding: UTF-8
       string: ! ' '
     http_version: 
-  recorded_at: Fri, 03 Aug 2012 22:24:38 GMT
+  recorded_at: Fri, 03 Aug 2012 23:05:27 GMT
 recorded_with: VCR 2.2.4

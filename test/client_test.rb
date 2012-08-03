@@ -69,9 +69,9 @@ class VCRTest < Test::Unit::TestCase
   end
   def test_wrong_key
      VCR.use_cassette('wrong_key') do
-       client = SocialMediaMonitoring::Client.new("wrong_key")
-       response = client.reviews(282,0).response.first.id
-       assert_equal 5938, response.to_i
+       client = SocialMediaMonitoring::Client.new("wrong_key_3423423423khkjhk3")
+       response = client.reviews(282,0)
+       assert_match /Please obtain/, response
      end
    end
 end
