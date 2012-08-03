@@ -1,6 +1,8 @@
-# SocialMediaMonitoring
+# Social Media Monitoring ruby gem
 
-SocialMediaMonitoring is a collection of API methods of the Apphera API. At this time it offers sentiment analysis and keyword tracking for Google search rankings.
+SocialMediaMonitoring is a collection of API methods of the Apphera API (Apphera, Inc.). At this time it offers sentiment analysis in 6 languages, keyword tracking (SERP), competitor search and review tracking from social review sites such as Qype, Yelp, Pointoo, kennstdueinen.de, tripadvisor, golocal, hotels.com, meinestadt.de, restaurant-kritik.de, wowarstdu.de etc. including reviewer information.
+
+ 
 The API is currently in BETA. I will add more methods and documentation soon.
 ## Installation
 
@@ -17,6 +19,34 @@ Or install it yourself as:
     $ gem install social_media_monitoring
 
 ## Basic usage
+
+### Review tracking & Venues/Organizations (In BETA, GERMANY ONLY!)  
+
+require 'social_media_monitoring'  
+
+client = SocialMediaMonitoring::Client.new("987634f072b7c51db349bda9fd5cd6da")
+
+
+To receive reviews pass in the company id (from competitor search or organization search) as parameter and the id of the last review you already have received. Alternatively you can pass in 0 to receive all available reviews. 
+
+company_id = 1234
+reviews = client.reviews(1234,38644)
+
+`=> Returns mash of available social media reviews (Qype, Yelp, Pointoo, kennstdueinen.de, tripadvisor, golocal, hotels.com, meinestadt.de, restaurant-kritik.de, wowarstdu.de etc.)`  
+
+#### To find organizations:
+
+organizations = client.organizations(name, postalcode, country_code)   
+`=> Returns mash of organizations`
+
+If the search does not return the organization, you can create a new record on the system which will be analyzed and then queued for processing. Germany should have already more than 85% coverage and thousands of venues are added daily. 
+
+temporary disabled - filter rewrite & improving vetting process of data  
+client.create_organization(name, street1,street2, state, postalcode, city, latitude, longitude, phone, url, facebook_page, category_id, twitter)
+
+`=> returns confirmation`
+
+****
 
 ### Sentiment Analysis
 
@@ -90,6 +120,8 @@ geo = "53.66,10.1154"
 response = client.competitors(category_id, geo)
 
 It returns a mash of companies in a radius of up to 20 miles who are competing in the same category (i.e. "dentist" or "hotel"). The results during the beta are limited to 20 companies per query. All results are ordered by distance from the geo point in miles (km = miles * 1.60934).  
+
+
 
 ********    
 

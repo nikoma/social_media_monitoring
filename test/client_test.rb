@@ -60,4 +60,18 @@ class VCRTest < Test::Unit::TestCase
       assert_equal 282, response.to_i
     end
   end
+  def test_reviews_de
+    VCR.use_cassette('reviews_de') do
+      organization_id = 282
+      response = $client.reviews(organization_id,0).response.first.id
+      assert_equal 5938, response.to_i
+    end
+  end
+  def test_wrong_key
+     VCR.use_cassette('wrong_key') do
+       client = SocialMediaMonitoring::Client.new("wrong_key")
+       response = client.reviews(282,0).response.first.id
+       assert_equal 5938, response.to_i
+     end
+   end
 end

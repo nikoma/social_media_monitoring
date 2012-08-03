@@ -1,0 +1,279 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.apphera.com/1/reviews?api_key=63ad4581c8746c06b511b3fe50f4ace5&organization_id=282&review_id=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.1
+      Date:
+      - Fri, 03 Aug 2012 21:38:20 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '23527'
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - ! '"34359fb0bb5339f7f217d331f9a596a1"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e00d41c309726975f610ef2ce14db1b1
+      X-Runtime:
+      - '0.733733'
+      X-Rack-Cache:
+      - miss
+    body:
+      encoding: UTF-8
+      string: ! '{"response":[{"id":5938,"organization_id":282,"reviewer":"trishh","reviewer_slug":"http://www.qype.com/people/trishh","reviewer_image":"http://assets2.qypecdn.net/uploads/users/0045/4303/n732605636_9452_original_thumb.jpg","body":"Ein
+        klassischer Chinese wie man ihn von fr\u00fcher kennt. Extrem kitschig eingerichtet.
+        Sehr lecker!","title":null,"review_date":"2012-04-29","rating":4.0,"content_provider":"Qype
+        Germany"},{"id":5939,"organization_id":282,"reviewer":"234NCM","reviewer_slug":"http://www.qype.com/people/234NCM","reviewer_image":"http://assets2.qypecdn.net/images/default_avatar/user_icon_64x64.png","body":"Wie
+        viele vor mir schrieben: Ich war im letzten Herbst mit einer Freundin das
+        erste Mal nach mindestens 25 Jahren da! K\u00f6nnt Ihr Euch wirklich nicht
+        mehr erinnern? Es hat sich NICHTS ver\u00e4ndert. Omi begr\u00fc\u00dft und
+        h\u00e4lt die Stammg\u00e4ste bei Laune. Sogar der \u201cLieblings-Drehtisch\u201d
+        \u2013 ein Highlight meiner Kindheit \u2013 ist noch da! Das Personal war
+        fr\u00fcher nicht anders \u2013 wie oft habe ich meine Gro\u00dfeltern noch
+        dar\u00fcber lamentieren h\u00f6ren. \u201cAaaaaber das Essen! Und die Portionen!!!
+        Toll!\u201d Dazu muss ich sagen, dass meine Gro\u00dfeltern nie bei einem
+        \u201cechten\u201d Chinesen essen waren, das h\u00e4tte ihnen auch niemals
+        gemundet. Au\u00dferdem sind sie niemals ins Shin-Shin gefahren, sondern zu
+        \u201cHein ten Hoff\u201d. Nach dem Auftakt im Herbst habe ich nun mit meinen
+        Kindern zwei Besuche hinter mir: Es war f\u00fcr sie der Hammer! Das Essen
+        egal. Die Jungs haben auf einen Action-Auftritt gem\u00e4\u00df \u201cLethal
+        Weapon 4\u201d gewartet: Gleich springt ein Mitb\u00fcrger asiatischer Herkunft
+        durch\u2019s Fenster und haut in Karate-Manier alles kurz und klein (das darf
+        ich schreiben, habe selbst \u2026-Hintergrund). Alles war f\u00fcr die drei
+        ein Erlebnis: Die muffigen, hei\u00dfen Waschlappen, die Plastikblumen auf
+        dem Essen, Weihnachtsdekoration in schr\u00e4gen Farben noch weit im Januar,
+        die Waschr\u00e4ume \u2026 und die Musik in den Waschr\u00e4umen \u2026 (\u00fcbrigens
+        waren die Waschr\u00e4ume im Gegensatz zu Tischw\u00e4sche, Besteck und Tellern
+        sehr sauber.)!Das Shin-Shin ist Kult, aber chinesisches Essen bekommen wir
+        in anderen Restaurants \u2026 Dank Glutamat hatten wir noch Stunden sp\u00e4ter
+        mit prallvollen M\u00e4gen Appetit auf Sojasauce!Wer es (wieder) testen m\u00f6chte:
+        Geht zum Mittagstisch, da sind die Preise moderat und man muss nicht reservieren.
+        Es ist einfach schr\u00e4g! Die Sterne gibt es f\u00fcr den Kult-Faktor!","title":null,"review_date":"2012-03-10","rating":3.0,"content_provider":"Qype
+        Germany"},{"id":5940,"organization_id":282,"reviewer":"MizzEllie","reviewer_slug":"http://www.qype.com/people/MizzEllie","reviewer_image":"http://assets2.qypecdn.net/images/default_avatar/user_icon_64x64.png","body":"Besuch
+        zu Viert am Freitag, 10.02.2012\u2026 und ich war sehr skeptisch auf Grund
+        der hier zu lesenden Bewertungen der letzten Monate. Aber der Reihe nach.Freunde
+        hatten den Tisch reserviert, ich war gespannt, denn mein letzter Besuch im
+        Shin Shin lag mehr als 20 Jahre zur\u00fcck ;o) Der erste Eindruck beim betreten
+        des Restaurants war: hat sich in all den Jahren nicht wirklich ver\u00e4ndert.
+        Die Begr\u00fc\u00dfung war sehr nett, wir wurden an einen Tisch im hinteren
+        Bereich gef\u00fchrt. Die Chefin ging von Tisch zu Tisch um ihre G\u00e4ste
+        zu begr\u00fc\u00dfen, wie seit eh und je.Unsere Bedienung war freundlich,
+        aufmerksam und flott! Keine langen Wartezeiten, weder auf die Getr\u00e4nke
+        noch auf\u2019s Essen. Das Essen war super! Vorspeisen, Hauptgerichte und
+        Dessert tadellos, da gab es wirklich \u00fcberhaupt nix zu kritisieren. Da
+        k\u00f6nnen sich andere Chinarestaurants wirklich mal ein Beispiel dran nehmen.Zu
+        den Preisen: 4 Vorspeisen, 4 Hauptgerichte, 1 Dessert, 1 gr. Fl. Wasser, 6
+        Bier f\u00fcr um die 100 Euro finden wir angemessen. Wir geben lieber n paar
+        Euro mehr aus und haben Qualit\u00e4t, aber auch das ist ja immer Ansichtssache.Alles
+        in allem hatten wir einen wirklich tollen Abend und kommen bestimmt mal wieder,
+        und das nicht erst in 20 Jahren ;o)","title":null,"review_date":"2012-02-13","rating":5.0,"content_provider":"Qype
+        Germany"},{"id":5941,"organization_id":282,"reviewer":"steaknfries","reviewer_slug":"http://www.qype.com/people/steaknfries","reviewer_image":"http://assets0.qypecdn.net/uploads/users/0106/6330/steak2_original_thumb.JPG","body":"Neben
+        dem guten Essen, wurden wir sehr freundlich und unaufdringlich bedient. Mir
+        hat es gefallen, ich habe aber auch den Pseudokult um das Restaurant samt
+        Promifotogalerie ignoriert und mich nur dem Essen hingegeben. Lecker, knusprig
+        und unerwartet. Gut.","title":null,"review_date":"2012-01-14","rating":5.0,"content_provider":"Qype
+        Germany"},{"id":5942,"organization_id":282,"reviewer":"ha_es","reviewer_slug":"http://www.qype.com/people/ha_es","reviewer_image":"http://assets2.qypecdn.net/images/default_avatar/user_icon_64x64.png","body":"Wir
+        sind nach l\u00e4ngerer Zeit mal wieder mit einer gr\u00f6\u00dferen Gruppe
+        (zu acht) da gewesen. Nach dem Lesen der letzten Bewertungen war ich etwas
+        in Sorge, aber zu unrecht.Wir hatten leckere Vorspeisen, insbes. die Dim Sums
+        waren prima. Und auch bei den Hauptgerichten gab es keinen richtigen Ausfall.
+        Lediglich ein Fischgericht hat nicht so den Geschmack der Bestellerin gefunden,
+        und auch die anderen fanden es nicht allzu lecker. Aber die anderen Gerichte
+        waren wirklich gut: die Entengerichte waren sch\u00f6n kross gebacken mit
+        leckerer Sauce, Huhn s\u00fc\u00df-sauer war gut, Rind mit Zwiebeln und was
+        wir noch so hatten war auch alles im oberen Bereich und das Geld wert.Auch
+        mit dem Service waren wir zufrieden. Wir sa\u00dfen zwar im hinteren Bereich,
+        aber trotzdem kam regelm\u00e4\u00dfig jemand in Sichtweite, um zu gucken,
+        ob alles passt. Auch Sonderw\u00fcnsche wurden schnell erf\u00fcllt.Es war
+        ein wirklich netter Abend. Trotz der tlw. recht hohen Preise ist mir das Shin
+        Shin nach wie vor eine Empfehlung wert.","title":null,"review_date":"2012-01-11","rating":4.0,"content_provider":"Qype
+        Germany"},{"id":5943,"organization_id":282,"reviewer":"Tintenfis...","reviewer_slug":"http://www.qype.com/people/Tintenfischchen","reviewer_image":"http://assets0.qypecdn.net/uploads/users/0177/7912/shot_1317904948658_original_thumb.jpg","body":"Ich
+        kann den Hype um diesen Chinesen \u00fcberhaupt nicht nachvollziehen. Auf
+        Grund der Schw\u00e4rmerei von meinen Kindern habe ich mich \u00fcberreden
+        lassen hier ein mal Essen zu gehen. Wir waren gar nicht begeistert!Die Kellner
+        waren wirklch \u00fcberfordert (vielleicht zu wenig Personal?) Die ganze Bedienung
+        wirkte abgehetzt. Unsere Getr\u00e4nkebestellung wurde dann auch noch glatt
+        vergessen. Auch das Essen wirkte leider nicht sehr frisch. Habe die Vermutung
+        das hier viel auf Vorrat gekocht wird! Das schmeckt man leider!","title":null,"review_date":"2011-12-29","rating":2.0,"content_provider":"Qype
+        Germany"},{"id":5944,"organization_id":282,"reviewer":"blexau","reviewer_slug":"http://www.qype.com/people/blexau","reviewer_image":"http://assets2.qypecdn.net/images/default_avatar/user_icon_64x64.png","body":"Essen
+        im Shin-shin \u2014 25.12.11 12:00 Uhr.Ho, Ho, was ist mit Shin-shin los\u2026..??Einmal
+        im Jahr zur Weihnachtszeit bin ich mit meiner Familie im Shin-shin und ich
+        mu\u00df euch sagen, es wird immer schlechter\u2026.. Die Bedienung unfreundlich
+        und \u00fcberfordert! Wir haben lange auf die Getr\u00e4nke gewartet und die
+        Vorspeise und dann mu\u00dfte es ganz schnell gehen, weil der Tisch um 14:00
+        Uhr reserviert war\u2026Schreckliich Stressig oder\u2026. !!!?Das Essen wurde
+        hingefeuert schnell, schnell\u2026.. Meiner Frau aufs Kleid gekleckert, keine
+        Reaktion von der Bedienung, noch sonstigen Personal???Ihr wurde ein Lappen
+        hingeworfen, das war es dann\u2026!!!Nun zum Essen\u2026. es ist schon der
+        Hammer was dort serviert wird, ich hatte Rindfleisch mit Curry, mein Sohn
+        Huhn mit Curry, meine Frau \u201cgebratene Garnelen\u201d mit der gleichen
+        Currysauce, wie wir alle\u2026\u2026die \u201cGebratenen Garnelen\u201d waren
+        auch nicht gebraten,(vielleicht mal viele Stunden vorher) sie wurden in der  \u201cCurry
+        Einheitssauce\u201d  gekocht. Das geht gar nicht und das f\u00fcr den Preis
+        \u2026.!!!!!Meine Eltern schw\u00f6ren auf den Laden seit vielen Jahren\u2026\u2026.F\u00fcr
+        uns war es der letzte Besuch im Shin-shin und nun m\u00fcssen wir meine Eltern
+        \u00fcberreden uns zu folgen. Das wird schwer\u2026..!!!!","title":null,"review_date":"2011-12-26","rating":1.0,"content_provider":"Qype
+        Germany"},{"id":5945,"organization_id":282,"reviewer":"alfaromeo166","reviewer_slug":"http://www.qype.com/people/alfaromeo166","reviewer_image":"http://assets2.qypecdn.net/images/default_avatar/user_icon_64x64.png","body":"Ich
+        war seit Jahren nicht mehr da,alle meine Freunde gehen immer wieder hin!und
+        sagen das es der Hammer ist.Nun war ich auch mal wieder da,und ich muss sagen  leider
+        leider sehr Entt\u00e4uschend Essen naja Personal Pampig bis Frech und \u00fcber
+        die Preise wollen wir erst nicht Reden.F\u00fcr ist oder (war) das Jazmin
+        in Volksdorf immer das beste China Restaurant in Hamburg,aber nun ist es leider
+        Geschlossen!!!","title":null,"review_date":"2011-11-14","rating":1.0,"content_provider":"Qype
+        Germany"},{"id":5946,"organization_id":282,"reviewer":"Flashman4711","reviewer_slug":"http://www.qype.com/people/Flashman4711","reviewer_image":"http://assets2.qypecdn.net/images/default_avatar/user_icon_64x64.png","body":"Ich
+        komme seit Jahren immer mal wieder ins Shin Shin und finde es immer sehr angenehm
+        dort. Das Essen ist reichhaltig und lecker; der Service sehr zuvorkommend.Das
+        Ambiente rundet das ganze ab.\nDaf\u00fcr gebe ich dann gerne auch mal zwei
+        Euro mehr aus.","title":null,"review_date":"2011-09-06","rating":5.0,"content_provider":"Qype
+        Germany"},{"id":5947,"organization_id":282,"reviewer":"waterman","reviewer_slug":"http://www.qype.com/people/waterman","reviewer_image":"http://assets2.qypecdn.net/images/default_avatar/user_icon_64x64.png","body":"Wir
+        waren heute seit langer Zeit mal wieder hier. Sehr lecker, gute Bedienung
+        und viele Extras. Verglichen mit vielen anderen China-Restaurants ist das
+        Shin Shin eines der Besten.","title":null,"review_date":"2011-08-21","rating":5.0,"content_provider":"Qype
+        Germany"},{"id":5948,"organization_id":282,"reviewer":"gwionic","reviewer_slug":"http://www.qype.com/people/gwionic","reviewer_image":"http://assets0.qypecdn.net/uploads/users/0016/9347/thumb_original_thumb.jpg","body":"Das
+        Shin Shin muss fr\u00fcher mal ein richtig gutes Restaurant gewesen sein.
+        Das zeigen zumindets die Celebritys auf den Fotos. Auch das Interieur ist
+        nicht von schlechten Eltern. Hier findet man alles, was man von einem Chinesen
+        in Deutschland erwartet, vor allem viele Wassertiere.Leider ist der Besitzer
+        schon nicht mehr unter uns, und so hat sich hier klammheimlich das Mittelma\u00df
+        eingeschlichen. Die Speisen sind nicht mehr besonders gut. Leider.Aber sie
+        bem\u00fcen sich wirklich. Das merkt man, wenn man am Geburtstag Traumschiff-ad\u00e4quat
+        seine Wunderkerzen-Cocktails bekommt. Den Pflaumenschnaps gibts auch gratis
+        aufs Haus. Irgendwie nett.\n\n\n\tAber f\u00fcr gutes chinesisches Essen leider
+        nicht mehr die beste Adresse.","title":null,"review_date":"2011-06-13","rating":3.0,"content_provider":"Qype
+        Germany"},{"id":5949,"organization_id":282,"reviewer":"chef31","reviewer_slug":"http://www.qype.com/people/chef31","reviewer_image":"http://assets2.qypecdn.net/images/default_avatar/user_icon_64x64.png","body":"Gro\u00dfe
+        Auswahl, nette Bedienung. Bisher jedes mal lecker gewesen. Bester Chinese
+        im Norden. Wir kommen oft und gerne. Im Sommer auch draussen. Ente ist top
+        knusprig.","title":null,"review_date":"2011-05-11","rating":5.0,"content_provider":"Qype
+        Germany"},{"id":5950,"organization_id":282,"reviewer":"hardenthommy","reviewer_slug":"http://www.qype.com/people/hardenthommy","reviewer_image":"http://assets2.qypecdn.net/uploads/users/0077/9875/-319911440_original_thumb.jpg","body":"Gestern
+        waren wir seit langem mal wieder hier! Nach wie vor ist die Karte reichhaltig,
+        die Portionen gro\u00df und die Qualit\u00e4t \u00fcberw\u00e4ltigend! Ich
+        habe noch nie besser chinesisch gegessen als hier. Einzig der Service k\u00f6nnte
+        etwas an Freundlichkeit zulegen-das war schon mal besser...","title":null,"review_date":"2011-04-06","rating":4.0,"content_provider":"Qype
+        Germany"},{"id":5951,"organization_id":282,"reviewer":"Grashopper89","reviewer_slug":"http://www.qype.com/people/Grashopper89","reviewer_image":"http://assets2.qypecdn.net/images/default_avatar/user_icon_64x64.png","body":"Ich
+        war im Sommer mit Begleitung da. Ich wollte die Dame zu einem \"schicken Essen\"
+        ausf\u00fchren. Das hatte ich immer dort n\u00e4mlich in den Jahren zuvor
+        gehabt. Die Ente war immer 1A und sonst auch passte alles. Die ganzen Promifotos
+        bezeugten auch den Level - wie es mal fr\u00fcher war.\n\n\n\tDas Restaurant
+        war - in der Woche um 17:30 Uhr - halb fast leer dunkel. Der d\u00fcrre Kelner,
+        welcher uns beim reingehen sah, reagierte erst nach seeeehr langem Z\u00f6gern
+        und weiste uns mit einer eher unfreundlichen Geste einen Tisch zu.\n\n\n\tAm
+        nebentisch konnten wir pl\u00f6tzlich beobachten, wie kleine Fliegen \u00fcber
+        die Tischfl\u00e4che kreisten. Auf Anfrage meinte der Kelner, \"es w\u00e4re
+        nichts\". Er hat die Fliegen noch nicht einmal verscheucht. Er war pampig
+        und herablassend, sein Gesicht war leer - ohne Ausdruck - und in seinen Augen
+        konnte man eher unbehagen als Freude wahrnehmen. Das Mobiliar und Ausstattung
+        ist inzwischen alt und bedarf gr\u00fcndlicher Renovierung. Von den W\u00e4nden
+        f\u00e4llt hier und da Farbe ab.\n\n\n\tWir gingen sofort ohne zu bestellen.\n\n\n\tNIE
+        WIEDER. Die besten Tage von Shin Shin sind wohl endg\u00fcltig vorbei, wer
+        sich solche Bedienung ins Haus holt, der ist selbst schuld. Der \"Promibonus\"
+        wird die Leute inzwischen auch nicht mehr beeindrucken. Schlie\u00dflich stammen
+        die Fotos wohl noch aus den fr\u00fchen 90-gern oder sind gar \u00e4lter.\n\n\n\tDas
+        heutige Shin Shin verdient keinen einzigen Stern.","title":null,"review_date":"2011-01-06","rating":1.0,"content_provider":"Qype
+        Germany"},{"id":5952,"organization_id":282,"reviewer":"Eynsch","reviewer_slug":"http://www.qype.com/people/Eynsch","reviewer_image":"http://assets2.qypecdn.net/images/default_avatar/user_icon_64x64.png","body":"Ich
+        habe mich schon \u00f6fter ge\u00e4rgert, bin letzten Samstag zum allerletzen
+        Mal dort gewesen. Die Bedienung ist durch die Bank pampig.  Das Essen stand
+        10 Minuten nachdem wir uns plaziert hatten auf dem Tisch. Offensichtlich in
+        der Mikrowelle erhitzt. Der Fisch schmeckte nach Fisch, war nicht gew\u00fcrzt
+        und hat gestunken....und auf dem Teller meines Mannes schwammen dicke Glutamatklumpen.\n\n\n\tAm
+        Eingang wird signalisiert: Wir sind Kinderfreundlich. Ein gro\u00dfer Tisch,
+        gef\u00fcllt mit S\u00fc\u00dfigkeiten aller Art die Kinderherzen erfreuen.
+        Die Angestellten verdrehen allerdings allesamt die Augen, wenn die Kinder
+        nur in Erscheinung treten. Das passt meines Erachtens nicht zusammen. F\u00fcr
+        mich ist es unverst\u00e4ndlich dass so viele Leute hier viel Geld bezahlen
+        m\u00fcssen f\u00fcr unliebsam zubereitetes Essen. Eigentlich hat dieses Restaurant
+        keinen Stern verdient!","title":null,"review_date":"2010-11-16","rating":1.0,"content_provider":"Qype
+        Germany"},{"id":5953,"organization_id":282,"reviewer":"Hotti20","reviewer_slug":"http://www.qype.com/people/Hotti20","reviewer_image":"http://assets2.qypecdn.net/images/default_avatar/user_icon_64x64.png","body":"Ich
+        fands lecker,ich hatte die Ente mit Erdn\u00fcssen auf Zwiebeln und war sehr
+        zufrieden.Auch an den Fr\u00fchlingsr\u00f6llchen und dem Schnaps mit \"sch\u00f6ne
+        glu\u00df von die Haus\" vorweg gibts nichts zu meckern.Die Bedienung war
+        etwas pampig aber daf\u00fcr kommt immernoch Mutti Wong (die mittlerweile
+        \u00fcber 90 sein m\u00fcsste) vorbei und w\u00fcnscht einen guten Appetit!Die
+        Preise sind nicht ganz so abgehoben und bezahlbar.Auch Parkm\u00f6glichkeiten
+        direkt am haus gibt es genug.Immer mal wieder gerne!","title":null,"review_date":"2010-11-14","rating":4.0,"content_provider":"Qype
+        Germany"},{"id":5954,"organization_id":282,"reviewer":"taminaruss","reviewer_slug":"http://www.qype.com/people/taminaruss","reviewer_image":"http://assets2.qypecdn.net/images/default_avatar/user_icon_64x64.png","body":"Nicht
+        mehr das, was es \u00fcber lange Jahre war. Seit dem der alte Herr Wong verstorben
+        ist (2007) geht es nach meinem Empfinden bergab.\n\n\n\tDie einst tadellose
+        Ente ist nun eine Fettschicht mit Fleischanteil. Die Saucen kann man auf 2
+        Sorten zusammenfassen.\n\n\n\tMauliges Personal teil \u00fcberfordert und
+        das Ambieten leidet unter den vielen Jahren ohne Facelift.\n\n\n\tDa nutzen
+        auch die zig Promi-Bilder aus dem letzten Jahrtausend nichts - die Betreiber
+        tun gut daran, hier das Konzept wieder aufzupeppen.\n\n\n\tDer kleine Schnaps
+        und die kl. Fr\u00fchlingsrollen vorweg aufs Haus werden auf den Tisch geknallt
+        - macht nix n\u00e4hh?","title":null,"review_date":"2010-10-20","rating":2.0,"content_provider":"Qype
+        Germany"},{"id":5955,"organization_id":282,"reviewer":"WolligesH...","reviewer_slug":"http://www.qype.com/people/WolligesHangschaf","reviewer_image":"http://assets2.qypecdn.net/images/default_avatar/user_icon_64x64.png","body":"Ich
+        war schon \u00f6fter im ShinShin!Leider ist das Personal nicht sonderlich
+        zuvorkommend....Das essen war ja ganz lecker, nur es lag mir wie ein Stein
+        im Magen, und ich bekam schreckliches Sodbrennen, da die speisen ser \u00fcberw\u00fcrzt
+        waren...Ich war schon in vielen China Restaurants, aber nur im ShinShin vertrage
+        ich das essen nicht!\n\n\n\tLos Camareros son muy antipaticos!La Comida me
+        sentia como una pierdra en el estomago!Estuve en varios restaurantes Chinos,
+        pero solo en este restaurante la comida no me siente bien!","title":null,"review_date":"2010-10-16","rating":3.0,"content_provider":"Qype
+        Germany"},{"id":5956,"organization_id":282,"reviewer":"Northwood...","reviewer_slug":"http://www.qype.com/people/Northwood5800","reviewer_image":"http://assets2.qypecdn.net/images/default_avatar/user_icon_64x64.png","body":"Unfreundliches
+        Personal und in der Qualit\u00e4t stark schwankendes Essen.","title":null,"review_date":"2010-09-27","rating":2.0,"content_provider":"Qype
+        Germany"},{"id":5957,"organization_id":282,"reviewer":"diogenes_3","reviewer_slug":"http://www.qype.com/people/diogenes_3","reviewer_image":"http://assets3.qypecdn.net/uploads/users/0073/7434/thomas_original_thumb.jpg","body":"Lokale,
+        die irgendwann von ihrem Ruf leben statt von der Gegenwart, sind immer schwer
+        zu bewerten. Wenn ich in Hamburg bin, gehe ich seit vielen Jahren gern mit
+        meinen Eltern dorthin, die wiederum seit vielen vielen Jahren gern mit ihrem
+        Tanzkreis. Die Folge ist aber nat\u00fcrlich, da\u00df sie dort inzwischen
+        absolut bekannt sind und von der Besitzerin (Madame Wu, soviel ich wei\u00df)
+        pers\u00f6nlich begr\u00fc\u00dft werden, auch wenn wir keine der im Eingang
+        ausgeh\u00e4ngten Prominenten sind. Klar, da\u00df dann der Service erstklassig
+        ist...\n\n\n\tAllen anderen sei ein sehr ansprechendes Ambiente und anst\u00e4ndiges,
+        vielleicht nicht spezielles, aber sicher mindestens gutes Essen zu allerdings
+        beachtlichen, aber gerade noch bezahlenswerten Preisen empfohlen.\n\n\n\tMeine
+        Eltern loben das Lokal speziell an Silvester.","title":null,"review_date":"2010-08-15","rating":3.0,"content_provider":"Qype
+        Germany"},{"id":5958,"organization_id":282,"reviewer":"wguhl","reviewer_slug":"http://www.tripadvisor.com/members/wguhl","reviewer_image":"http://media-cdn.tripadvisor.com/media/photo-f/02/5b/d0/32/wguhl.jpg","body":"We
+        have eaten here before and were not disappointed. The menu was extensive and
+        available in English. The food was of high quality and plentiful. To see the
+        interior of the restaurant is worth a visit in itself. This is a white table
+        cloth restaurant which serves the food in bowls and on large plates. They
+        were placed on candle light heaters to keep the food warm. Also the dinner
+        plates were preheated. Senior portions were available, otherwise we could
+        have taken any uneaten portions with us. Service was good, and the Restaurant
+        was very affordable.","title":"There is no better chinese restaurant in Hamburg","review_date":null,"rating":5.0,"content_provider":"Tripadvisor"},{"id":5959,"organization_id":282,"reviewer":"kellerchen","reviewer_slug":"http://www.tripadvisor.com/members/kellerchen","reviewer_image":"http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/7e/avatar065.jpg","body":"Das
+        Shin-Shin Restaurante bietet gutes chinesiches Essen an. Die Portionen sind
+        sehr reichhaltig und von guter Qualit\u00e4t. Auf der Speisekarte stehen Gerichte
+        mit H\u00fchnchen, Rind, Schwein und Ente. Dazu gibt es verschiedene Beilagen
+        wie Reis und Nudeln. Besonders zu empfehlen sind die gebratene Ente, das H\u00e4hnchen
+        mit Ananas und die Fr\u00fchlingsrollen. Die Speisen und Getr\u00e4nke stehen
+        in einem guten Preis-Leistungsverh\u00e4ltnis. Besonders positiv sind uns
+        die Hygienevorrichtungen im Restaurante aufgefallen. Am Eingang, vor und in
+        der Toilette gab es Desinfektionsmittelspender. Im Eingagsbereich hingen u.a.
+        Fotos von Prominenten die schon da waren, wie z.B. Otto Walkes.","title":"Sehr
+        gutes Restaurante","review_date":null,"rating":5.0,"content_provider":"Tripadvisor"},{"id":5960,"organization_id":282,"reviewer":"Traveller_7517","reviewer_slug":"http://www.tripadvisor.com/members/Traveller_7517","reviewer_image":"http://media-cdn.tripadvisor.com/media/photo-f/01/2e/70/66/avatar044.jpg","body":"Das
+        Shin Shin im Norden Hamburgs ist recht gro\u00df, was aber nicht st\u00f6rt,
+        da es sich in unterschiedliche Bereiche separiert. Das Interieur ist typisch
+        chinesisch und gem\u00fctlich. Wenn das Restaurant gut gef\u00fcllt ist, dann
+        ist es mir pers\u00f6nlich manchmal etwas zu laut. Im Sommer kann man auch
+        gut drau\u00dfen sitzen; von der gut befahrenen Stra\u00dfe haben wir dabei
+        nichts mitbekommen. Das Personal ist freundlich, die Qualit\u00e4t das Essens
+        gut und die Preise angemessen. Wer Strau\u00df mag, sollte diesen unbedingt
+        probieren; dieses Gericht ist unser Favourit.","title":"Guter Chinese im Norden
+        Hamburgs","review_date":null,"rating":4.0,"content_provider":"Tripadvisor"},{"id":6403,"organization_id":282,"reviewer":"Stralsunner","reviewer_slug":"http://www.pointoo.de/user/Stralsunner/","reviewer_image":"http://media.pointoo.de/files/assets/profile_images/000/204/196/tiny/Picture0001.jpg?1335871039","body":"Im
+        \"Shin\" in Hamburg (Sasel) gibt es die beste Ente der Stadt. Das essen ist
+        im allgemeinen sehr lecker. Empfehlen kann ich Ente mit gebratenen Nudeln.
+        Die Preise sind hier recht niedrig und auch der Service l\u00e4sst keine W\u00fcnsche
+        offen. Die Kellnerinnen k\u00f6nnen alle deutsch sprechen. Die Einrichtung
+        ist zwar nicht so besonders, jedoch gibt es ein paar sch\u00f6ne Aquarien.
+        Parkm\u00f6glichkeiten gibt es auch genug, super!","title":"Leckere Peking-Ente","review_date":"2012-02-11","rating":5.0,"content_provider":"Pointoo"},{"id":101728,"organization_id":282,"reviewer":"Stralsunner","reviewer_slug":"http://www.pointoo.de/user/Stralsunner/","reviewer_image":"http://media.pointoo.de/files/assets/profile_images/000/204/196/tiny/Picture0001.jpg?1335871039","body":"test","title":"","review_date":"2012-07-05","rating":5.0,"content_provider":"Pointoo"}],"count":25}'
+    http_version: 
+  recorded_at: Fri, 03 Aug 2012 21:38:20 GMT
+recorded_with: VCR 2.2.4

@@ -42,6 +42,11 @@ module SocialMediaMonitoring
       results = Mash.new(self.class.get("/organizations", options))
     end
     
+    def reviews(organization_id, review_id=0)
+      options = {:query => {:organization_id => organization_id, :review_id => review_id}.merge(self.default_options)}
+      results = Mash.new(self.class.get("/reviews", options))
+    end
+    
 
 
     protected
