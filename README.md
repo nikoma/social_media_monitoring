@@ -2,9 +2,10 @@
 
 SocialMediaMonitoring is a collection of API methods of the Apphera API (Apphera, Inc.). At this time it offers sentiment analysis in 6 languages, keyword tracking (SERP), competitor search and review tracking from social review sites such as Qype, Yelp, Pointoo, kennstdueinen.de, tripadvisor, golocal, hotels.com, meinestadt.de, restaurant-kritik.de, wowarstdu.de etc. including reviewer information.
 
-The REST documentation of the API will follow shortly. In theory all you would need is a copy of curl ;-)
-i.e.
-curl -is -G -d "&api_key=ed08eba2bd5ef47bab6cb1944686fed2&country=de&cat_id=135&geo=53.66,10.1154" https://api.apphera.com/1/organizations
+The REST documentation of the API will follow shortly. In theory all you would need is a copy of curl ;-)  
+i.e.  
+
+##### curl -is -G -d "&api_key=ed08eba2bd5ef47bab6cb1944686fed2&country=de&cat_id=135&geo=53.66,10.1154" https://api.apphera.com/1/organizations
  
 The API is currently in BETA. I will add more methods and documentation soon.
 ## Installation
