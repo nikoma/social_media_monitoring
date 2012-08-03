@@ -2,37 +2,139 @@
 http_interactions:
 - request:
     method: get
-    uri: http://127.0.0.1:3000/1/categories?api_key=8w7d64oqweryiqweo87qnxtqwi47xqn3i4tisq7&country=de
+    uri: https://api.apphera.com/1/categories?api_key=63ad4581c8746c06b511b3fe50f4ace5&country=de
     body:
       encoding: US-ASCII
       string: ''
     headers: {}
   response:
     status:
-      code: 401
-      message: ! 'Unauthorized '
+      code: 200
+      message: OK
     headers:
-      Content-Type:
-      - text/html; charset=utf-8
-      X-Ua-Compatible:
-      - IE=Edge
-      Cache-Control:
-      - no-cache
-      X-Request-Id:
-      - 67d50b03e07292ba790d1971bef36da5
-      X-Runtime:
-      - '0.821607'
-      Content-Length:
-      - '1'
       Server:
-      - WEBrick/1.3.1 (Ruby/1.9.3/2011-10-30)
+      - nginx/1.2.1
       Date:
-      - Thu, 02 Aug 2012 06:56:13 GMT
+      - Fri, 03 Aug 2012 01:08:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '9964'
       Connection:
-      - Keep-Alive
+      - keep-alive
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - ! '"7774294eb59ae04431afe8df1614b699"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - df2736ee95c001c7071a6ea27fc6a58b
+      X-Runtime:
+      - '0.195190'
+      X-Rack-Cache:
+      - miss
     body:
       encoding: UTF-8
-      string: ! ' '
+      string: ! '{"response":[{"id":2,"name":"Autoglas"},{"id":3,"name":"Autoh\u00e4user"},{"id":4,"name":"Autolackierer"},{"id":5,"name":"Autoleasing"},{"id":6,"name":"Autoschrotthandel"},{"id":7,"name":"Autotuning"},{"id":9,"name":"Fahrschulen"},{"id":10,"name":"Fahrzeugbau"},{"id":11,"name":"Flughafentransfer"},{"id":15,"name":"Motorr\u00e4der"},{"id":16,"name":"Nutzfahrzeuge"},{"id":17,"name":"Oldtimer"},{"id":18,"name":"Parkh\u00e4user"},{"id":19,"name":"Reifendienste"},{"id":20,"name":"Schrotthandel"},{"id":21,"name":"Tankstellen"},{"id":22,"name":"Vermietung"},{"id":23,"name":"Waschanlagen"},{"id":24,"name":"Werkst\u00e4tten"},{"id":25,"name":"Abbruchunternehmen
+        "},{"id":26,"name":"Bauhandwerk"},{"id":27,"name":"Baumaschinen"},{"id":28,"name":"Bauplanung"},{"id":29,"name":"Baustoffe"},{"id":30,"name":"Hallenbau
+        "},{"id":31,"name":"Montagearbeiten "},{"id":32,"name":"Restaurierung "},{"id":33,"name":"Sanierung
+        "},{"id":34,"name":"Stuckateure "},{"id":35,"name":"Abfallwirtschaft"},{"id":36,"name":"Altenheime
+        "},{"id":37,"name":"Altenpflege "},{"id":38,"name":"Bestattungen"},{"id":40,"name":"Jugendeinrichtungen
+        "},{"id":41,"name":"Mediation "},{"id":42,"name":"Notdienste"},{"id":44,"name":"Seniorenwohnungen
+        "},{"id":46,"name":"Sozialdienste"},{"id":47,"name":"Stadtarchiv "},{"id":48,"name":"Stiftungen
+        "},{"id":49,"name":"Supervision "},{"id":50,"name":"Verbraucherzentralen "},{"id":51,"name":"Wasser"},{"id":52,"name":"Wohnungs-
+        und Zimmervermittlung "},{"id":56,"name":"Arbeitssicherheit "},{"id":57,"name":"Arbeitsvermittlung
+        "},{"id":58,"name":"Berufliche Weiterbildung "},{"id":59,"name":"Berufsbildende
+        Schulen "},{"id":60,"name":"Berufsbildung "},{"id":61,"name":"Berufsgenossenschaften"},{"id":62,"name":"Bildungseinrichtungen
+        "},{"id":63,"name":"Computerschulung "},{"id":64,"name":"Erwachsenenbildung
+        "},{"id":66,"name":"Fahrschulen "},{"id":67,"name":"Flugschulen "},{"id":68,"name":"Hochschulen
+        "},{"id":69,"name":"Nachhilfeunterricht "},{"id":70,"name":"Personalberatung
+        "},{"id":71,"name":"Privatschulen "},{"id":72,"name":"Schulen"},{"id":73,"name":"Schulverwaltungsamt
+        "},{"id":74,"name":"Sportschulen "},{"id":75,"name":"Sprachschulen "},{"id":76,"name":"Zeitarbeit"},{"id":78,"name":"Computer
+        Service"},{"id":79,"name":"EDV "},{"id":80,"name":"Internet "},{"id":81,"name":"Internet-Caf\u00e9s
+        "},{"id":82,"name":"Kommunikation und Netzwerke "},{"id":83,"name":"Software
+        "},{"id":84,"name":"Web-Design "},{"id":85,"name":"Apotheken "},{"id":86,"name":"Blutspendedienste
+        "},{"id":88,"name":"Heilpraktiker"},{"id":89,"name":"Hilfsdienste "},{"id":90,"name":"H\u00f6rger\u00e4te
+        "},{"id":91,"name":"Krankenh\u00e4user"},{"id":92,"name":"Laborbedarf "},{"id":93,"name":"Labordiagnostik
+        "},{"id":95,"name":"Medizinischer Fachbedarf "},{"id":96,"name":"Optiker"},{"id":98,"name":"Osteopathie
+        "},{"id":99,"name":"Pflegedienste"},{"id":100,"name":"Physiotherapie"},{"id":101,"name":"Psychiatrie
+        und Psychotherapie"},{"id":102,"name":"Reformh\u00e4user "},{"id":103,"name":"Rehabilitation"},{"id":105,"name":"Schwangerschaft
+        und Geburt"},{"id":106,"name":"Suchtberatung "},{"id":107,"name":"Zahnmedizin"},{"id":108,"name":"\u00c4rzte"},{"id":109,"name":"Bar"},{"id":111,"name":"Caf\u00e9s
+        "},{"id":112,"name":"Catering"},{"id":113,"name":"Eiscaf\u00e9s "},{"id":114,"name":"Feinkost
+        "},{"id":115,"name":"Fleischereien "},{"id":117,"name":"Konditoreien "},{"id":118,"name":"Lebensmittel
+        "},{"id":119,"name":"Lieferservices "},{"id":120,"name":"Meeresfr\u00fcchte
+        "},{"id":122,"name":"Pubs / Kneipen "},{"id":123,"name":"Restaurants"},{"id":124,"name":"S\u00fc\u00dfwaren
+        "},{"id":125,"name":"Tiefk\u00fchlkost "},{"id":126,"name":"Bierg\u00e4rten
+        "},{"id":127,"name":"Bistro "},{"id":128,"name":"Erlebnisgastronomie "},{"id":130,"name":"Pizza
+        "},{"id":131,"name":"Restaurant: Amerikanisch "},{"id":132,"name":"Restaurant:
+        Arabisch "},{"id":133,"name":"Restaurant: Asiatisch "},{"id":134,"name":"Restaurant:
+        Brasilianisch "},{"id":135,"name":"Restaurant: Chinesisch "},{"id":136,"name":"Restaurant:
+        Deutsch "},{"id":137,"name":"Restaurant: Fisch "},{"id":141,"name":"Restaurant:
+        Griechisch "},{"id":142,"name":"Restaurant: Indisch "},{"id":144,"name":"Restaurant:
+        Italienisch "},{"id":145,"name":"Restaurant: Japanisch "},{"id":146,"name":"Restaurant:
+        Koreanisch "},{"id":147,"name":"Restaurant: Kroatisch "},{"id":148,"name":"Restaurant:
+        Libanesisch "},{"id":149,"name":"Restaurant: Mediterran "},{"id":150,"name":"Restaurant:
+        Mexikanisch "},{"id":151,"name":"Restaurant: Polnisch "},{"id":152,"name":"Restaurant:
+        Portugiesisch "},{"id":153,"name":"Restaurant: Russisch "},{"id":154,"name":"Restaurant:
+        Spanisch "},{"id":155,"name":"Restaurant: Steakhaus "},{"id":156,"name":"Restaurant:
+        Thail\u00e4ndisch "},{"id":157,"name":"Restaurant: Tibetisch "},{"id":158,"name":"Doener
+        Restaurant"},{"id":159,"name":"Restaurant: Vegetarisch "},{"id":160,"name":"Restaurant:
+        Vietnamesisch "},{"id":161,"name":"Restaurant: verschiedene "},{"id":162,"name":"Schnellrestaurants
+        "},{"id":163,"name":"Anlageberatung"},{"id":164,"name":"Banken"},{"id":165,"name":"Beteiligungsgesellschaften
+        "},{"id":167,"name":"Finanzbuchhaltung "},{"id":168,"name":"Finanzierungsunternehmen
+        "},{"id":169,"name":"Immobilien"},{"id":170,"name":"Kassensysteme "},{"id":171,"name":"Kundendienste
+        "},{"id":172,"name":"Leasing "},{"id":174,"name":"Schulden"},{"id":175,"name":"Steuerberater
+        "},{"id":176,"name":"Unternehmensberatung "},{"id":177,"name":"Versicherungen"},{"id":179,"name":"Anglerbedarf
+        "},{"id":180,"name":"Ballonfahrten "},{"id":181,"name":"Billard "},{"id":182,"name":"Boote"},{"id":183,"name":"Bowlingbahnen
+        "},{"id":184,"name":"Camping"},{"id":185,"name":"Fahrr\u00e4der"},{"id":187,"name":"Golf
+        "},{"id":188,"name":"Hobby"},{"id":189,"name":"Inlineskating "},{"id":190,"name":"Jagdbedarf
+        "},{"id":191,"name":"Reiten "},{"id":192,"name":"Schwimmb\u00e4der "},{"id":193,"name":"Spielpl\u00e4tze
+        "},{"id":194,"name":"Sportanlagen "},{"id":195,"name":"Sportbedarf "},{"id":196,"name":"Tanzen"},{"id":197,"name":"Tauchsport
+        "},{"id":198,"name":"Tennis "},{"id":199,"name":"Vereine "},{"id":200,"name":"Wassersport
+        "},{"id":201,"name":"Wettb\u00fcros "},{"id":203,"name":"Kunst"},{"id":204,"name":"Erotik
+        "},{"id":205,"name":"Film"},{"id":207,"name":"Kultur "},{"id":208,"name":"Kunstgewerbe
+        "},{"id":209,"name":"Model- und Castingagenturen "},{"id":210,"name":"Museen
+        "},{"id":211,"name":"Musik"},{"id":212,"name":"Nachtclubs "},{"id":213,"name":"Radio-
+        und Fernsehsender "},{"id":214,"name":"Schaupl\u00e4tze"},{"id":215,"name":"Theater
+        "},{"id":216,"name":"Ticketverkauf "},{"id":217,"name":"Veranstaltungsservice
+        "},{"id":218,"name":"Autogenes Training "},{"id":219,"name":"Drogeriewaren
+        "},{"id":221,"name":"Hautpflege "},{"id":222,"name":"Kosmetikstudios & Friseursalons"},{"id":224,"name":"Nagelpflege"},{"id":226,"name":"Piercing
+        & Tatoo"},{"id":227,"name":"Saunab\u00e4der "},{"id":228,"name":"Sonnenstudios
+        "},{"id":229,"name":"Yoga "},{"id":230,"name":"Antennen- und Satellitenbau"},{"id":231,"name":"Bad
+        Sanit\u00e4r"},{"id":232,"name":"Bau"},{"id":233,"name":"Baumpflege "},{"id":234,"name":"Baumschule
+        "},{"id":235,"name":"Baum\u00e4rkte "},{"id":236,"name":"Brennstoffe "},{"id":237,"name":"Garagen"},{"id":238,"name":"Gartenbau
+        "},{"id":239,"name":"Gartencenter "},{"id":242,"name":"Hausdienstleistungen
+        "},{"id":244,"name":"Haussicherheit"},{"id":245,"name":"Haustechnik "},{"id":246,"name":"Inneneinrichtung"},{"id":247,"name":"Klimatechnik
+        "},{"id":248,"name":"Lagerung & Beseitigung"},{"id":249,"name":"Naturwaren
+        "},{"id":250,"name":"Reinigung"},{"id":251,"name":"Schleifereien "},{"id":252,"name":"Steinmetzbetriebe
+        "},{"id":253,"name":"Terrasse & Balkon"},{"id":254,"name":"Tore & Z\u00e4une"},{"id":255,"name":"Treppen
+        und Aufz\u00fcge"},{"id":256,"name":"Versorgung"},{"id":257,"name":"Werkzeuge
+        "},{"id":258,"name":"Ferienh\u00e4user "},{"id":259,"name":"G\u00e4steh\u00e4user
+        "},{"id":260,"name":"Hotels "},{"id":261,"name":"Jugendherbergen "},{"id":263,"name":"Pensionen
+        "},{"id":265,"name":"Reiseveranstalter "},{"id":266,"name":"Busbetriebe "},{"id":267,"name":"Flughafen
+        "},{"id":268,"name":"Kurierdienste "},{"id":269,"name":"Logistik "},{"id":270,"name":"Mitfahrzentrale
+        "},{"id":271,"name":"Schifffahrt "},{"id":272,"name":"Schwertransporte "},{"id":273,"name":"Speditionsgewerbe"},{"id":274,"name":"Taxi-
+        und Mietwagenverkehr "},{"id":275,"name":"Verkehrsbetriebe "},{"id":276,"name":"Verkehrstechnik
+        "},{"id":277,"name":"Copyshop "},{"id":278,"name":"Drucken und Laminieren"},{"id":279,"name":"Foto
+        "},{"id":280,"name":"Grafikdesign "},{"id":281,"name":"Kommunikation"},{"id":282,"name":"Lichtwerbung,
+        Schilder und Stempel"},{"id":283,"name":"Marktforschung "},{"id":284,"name":"Medien-
+        und Werbetechnik "},{"id":285,"name":"Verlagswesen "},{"id":286,"name":"Werbeartikel
+        "},{"id":287,"name":"Werbung, Promotion und Marketing "},{"id":288,"name":"Zeitungen
+        und Zeitschriften"},{"id":289,"name":"Aquaristik "},{"id":290,"name":"Facharzt
+        f\u00fcr Tiermedizin "},{"id":291,"name":"Haustierpflege "},{"id":292,"name":"Imkereien
+        "},{"id":293,"name":"Tierfriedhof "},{"id":294,"name":"Tierheim "},{"id":295,"name":"Tierpensionen
+        "},{"id":296,"name":"Tierschulen "},{"id":297,"name":"Tierzucht "},{"id":299,"name":"Allgemeiner
+        Einzelhandel "},{"id":301,"name":"Automaten "},{"id":302,"name":"Babyausstattung
+        "},{"id":303,"name":"Blumen "},{"id":304,"name":"B\u00fccher"},{"id":305,"name":"Eisenwaren
+        "},{"id":306,"name":"Elektronik"},{"id":307,"name":"Geschenkartikel"},{"id":308,"name":"Hobby
+        und Freizeit"},{"id":309,"name":"Hochzeit und Party"},{"id":310,"name":"Kaufh\u00e4user"},{"id":311,"name":"Kioske
+        "},{"id":312,"name":"Kleidung und Mode"},{"id":314,"name":"Lederwaren "},{"id":315,"name":"Schmuck"},{"id":316,"name":"Schuhe
+        "},{"id":317,"name":"Schulbedarf "},{"id":318,"name":"Spielwaren "},{"id":319,"name":"Tabakwaren
+        "},{"id":320,"name":"Textilien "},{"id":322,"name":"Uhren "},{"id":324,"name":"Zoohandlungen
+        "}],"count":280}'
     http_version: 
-  recorded_at: Thu, 02 Aug 2012 06:56:13 GMT
+  recorded_at: Fri, 03 Aug 2012 01:08:14 GMT
 recorded_with: VCR 2.2.4

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: https://api.apphera.com/1/keywords/create?api_key=987634f072b7c51db349bda9fd5cd6da
+    uri: https://api.apphera.com/1/keywords/create?api_key=63ad4581c8746c06b511b3fe50f4ace5
     body:
       encoding: UTF-8
       string: keyword=ruby%20testing
@@ -15,7 +15,7 @@ http_interactions:
       Server:
       - nginx/1.2.1
       Date:
-      - Wed, 01 Aug 2012 22:11:58 GMT
+      - Fri, 03 Aug 2012 01:13:49 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -27,18 +27,18 @@ http_interactions:
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Etag:
-      - ! '"627d44222eb29df3eb988c5faeac89c7"'
+      - ! '"c5e3b3c860ac5edfecd6896a25c801a5"'
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 017c4e8c78ec7037eb77b5dfcb4232d0
+      - b06d486db3297e990257bb694990abd4
       X-Runtime:
-      - '0.508844'
+      - '0.190724'
       X-Rack-Cache:
       - invalidate, pass
     body:
       encoding: UTF-8
-      string: ! '{"response":{"keyword":"ruby testing","id":551,"first_check":"2012-08-02T22:11:58+00:00"}}'
+      string: ! '{"response":{"keyword":"ruby testing","id":551,"first_check":"2012-08-04T01:13:49+00:00"}}'
     http_version: 
-  recorded_at: Wed, 01 Aug 2012 22:12:02 GMT
+  recorded_at: Fri, 03 Aug 2012 01:13:49 GMT
 recorded_with: VCR 2.2.4

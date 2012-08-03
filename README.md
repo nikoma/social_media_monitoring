@@ -71,6 +71,23 @@ The search results are paginated
 
 You can get a free API key at https://developer.apphera.com
 
+Competitor search (In BETA, GERMANY ONLY!)  
+
+To perform a competitor search you need to pass in the category id and the geo location as a string build from latitude and longitude.   
+You can retrieve a complete list of German category by sending a query to the API.
+categories = client.categories("de")  
+`=> Returns a mash of categories`
+
+Example:  
+category_id = 135  
+geo = "53.66,10.1154"  
+
+response = client.competitors(category_id, geo)
+
+It returns a mash of companies in a radius of up to 20 miles who are competing in the same category of business. The results during the beta are limited to 20 companies per query.   
+
+
+
 KNOWN ISSUE:
 In case you get a `"NoMethodError: undefined method `stringify_keys' for #<HTTParty::Response:0x007fa9231ab1b0>"`
 - It's telling you that the api key is invalid and therefore can't handle the server response. Please get a valid api key. 

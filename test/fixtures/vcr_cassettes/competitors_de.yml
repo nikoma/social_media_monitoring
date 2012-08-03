@@ -1,0 +1,82 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.apphera.com/1/organizations?api_key=63ad4581c8746c06b511b3fe50f4ace5&cat_id=135&geo=53.66,10.1154
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.1
+      Date:
+      - Fri, 03 Aug 2012 01:10:33 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '3643'
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - ! '"0a3c74345a84e27944070ba3bc6309b6"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a900d5d56ccb5e746eabc8c4dd7b0f72
+      X-Runtime:
+      - '0.081388'
+      X-Rack-Cache:
+      - miss
+    body:
+      encoding: UTF-8
+      string: ! '{"response":[{"id":282,"name":"Shin Shin","distance":0.000114539413635058,"street":"Saseler
+        Chaussee 254","postalcode":"20249","city":"Hamburg","phone":"123123123"},{"id":33536,"name":"Shin-shin
+        - China Restaurant Restaurant","distance":0.00490648623804628,"street":"Saseler
+        Chaussee 254","postalcode":"22393","city":"Hamburg","phone":"(0 40) 6 01 11
+        86"},{"id":33392,"name":"Chinatown Dragon","distance":1.30828013244524,"street":"Meiendorfer
+        M\u00fchlenweg 35","postalcode":"22393","city":"Hamburg","phone":"(0 40) 6
+        01 56 63"},{"id":33286,"name":"Zhuo Yi Chinarestaurant","distance":1.37625087693558,"street":"Saseler
+        Chaussee 88A","postalcode":"22391","city":"Hamburg","phone":"(0 40) 63 64
+        66 01"},{"id":33287,"name":"China-Ente Sasel","distance":1.37625087693558,"street":"Saseler
+        Chaussee 88A","postalcode":"22391","city":"Hamburg","phone":"(0 40) 63 29
+        57 71"},{"id":7286,"name":"Canton Chinesisches Restaurant","distance":3.48539809228484,"street":"Bramfelder
+        Chaussee 264","postalcode":"22177","city":"Hamburg","phone":"(0\u00a040)\u00a064\u00a022\u00a025\u00a009"},{"id":32900,"name":"Canton
+        Chinesisches Restaurant","distance":3.48539809228484,"street":"Bramfelder
+        Chaussee 264","postalcode":"22177","city":"Hamburg","phone":"(0 40) 64 22
+        25 09"},{"id":33944,"name":"MAIXIM''s China Restaurant Inh. Wai-Meng Chan","distance":3.73057795960419,"street":"Segeberger
+        Chaussee 273","postalcode":"22851","city":"Norderstedt","phone":"(0 40) 5
+        29 16 28"},{"id":909022,"name":"MAIXIM''s China Restaurant Inh. Wai-Meng Chan","distance":3.73057795960419,"street":"Segeberger
+        Chaussee 273","postalcode":"22851","city":"Norderstedt","phone":"(0 40) 5
+        29 16 28"},{"id":33390,"name":"China Restaurant Happy Palace","distance":3.75495371639956,"street":"Tangstedter
+        Landstr. 244","postalcode":"22417","city":"Hamburg","phone":"(0 40) 5 20 73
+        99"},{"id":33391,"name":"Chinarestaurant Happy Palace","distance":3.75495371639956,"street":"Tangstedter
+        Landstr. 244","postalcode":"22417","city":"Hamburg","phone":"(0 40) 5 20 83
+        88"},{"id":908790,"name":"China Restaurant Happy Palace","distance":3.75495371639956,"street":"Tangstedter
+        Landstr. 244","postalcode":"22417","city":"Hamburg","phone":"(0 40) 5 20 73
+        99"},{"id":908791,"name":"Chinarestaurant Happy Palace","distance":3.75495371639956,"street":"Tangstedter
+        Landstr. 244","postalcode":"22417","city":"Hamburg","phone":"(0 40) 5 20 83
+        88"},{"id":7287,"name":"China Restaurant SHANGHAI","distance":4.13007911827384,"street":"Kleekamp
+        1","postalcode":"22339","city":"Hamburg","phone":"(0\u00a040)\u00a059\u00a066\u00a038"},{"id":32898,"name":"China
+        Restaurant \"SHANGHAI\"","distance":4.13007911827384,"street":"Kleekamp 1","postalcode":"22339","city":"Hamburg","phone":"(0
+        40) 59 66 38"},{"id":33389,"name":"China Restaurant Kwong Restaurant","distance":4.22062110126223,"street":"Schweriner
+        Str. 25","postalcode":"22143","city":"Hamburg","phone":"(0 40) 6 77 59 97"},{"id":33078,"name":"China
+        Restaurant Sea Food","distance":4.34981225413125,"street":"Langenhorner Chaussee
+        131","postalcode":"22415","city":"Hamburg","phone":"(0 40) 32 51 65 56"},{"id":33080,"name":"Chinarestaurant
+        Seafood","distance":4.34981225413125,"street":"Langenhorner Chaussee 131","postalcode":"22415","city":"Hamburg","phone":"(0
+        40) 5 31 72 60"},{"id":908792,"name":"Chinarestaurant Seafood","distance":4.34981225413125,"street":"Langenhorner
+        Chaussee 131","postalcode":"22415","city":"Hamburg","phone":"(0 40) 5 31 72
+        60"},{"id":908793,"name":"China Restaurant Sea Food","distance":4.34981225413125,"street":"Langenhorner
+        Chaussee 131","postalcode":"22415","city":"Hamburg","phone":"(0 40) 32 51
+        65 56"}],"count":20}'
+    http_version: 
+  recorded_at: Fri, 03 Aug 2012 01:10:33 GMT
+recorded_with: VCR 2.2.4

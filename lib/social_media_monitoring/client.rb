@@ -5,7 +5,7 @@ module SocialMediaMonitoring
     format :json
 
     attr_reader :api_key
-
+    #curl -G -d "&api_key=638955fa280854f29a8b42b54cb1625e&country=de&cat_id=135&geo=53.66,10.1154" https://api.apphera.com/1/organizations
     # Get a free api_key @ https://developer.apphera.com
     def initialize(api_key=nil)
       @api_key = api_key
@@ -36,6 +36,12 @@ module SocialMediaMonitoring
       options = {:body => {:body => body, :lang => lang}, :query => self.default_options}
       results = Mash.new(self.class.post('/sentiments', options))
     end
+    
+    def competitors(cat_id, geo)
+      options = {:query => {:cat_id => cat_id, :geo => geo}.merge(self.default_options)}
+      results = Mash.new(self.class.get("/organizations", options))
+    end
+    
 
 
     protected
