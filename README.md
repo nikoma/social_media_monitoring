@@ -50,8 +50,8 @@ At this time the API supports the following languages:
 
 ### Keyword tracking
 
-require 'social_media_monitoring'      
-`client = SocialMediaMonitoring::Client.new("987634f072b7c51db349bda9fd5cd6da")`
+require 'social_media_monitoring'        
+client = SocialMediaMonitoring::Client.new("987634f072b7c51db349bda9fd5cd6da")
   
 `=> #<SocialMediaMonitoring::Client:0x007fa19422d390 @api_key="987634f072b7c51db349bda9fd5cd6da", @api_path="">`  
 
@@ -89,7 +89,7 @@ geo = "53.66,10.1154"
 
 response = client.competitors(category_id, geo)
 
-It returns a mash of companies in a radius of up to 20 miles who are competing in the same category of business. The results during the beta are limited to 20 companies per query. All results are ordered by distance from the geo point in miles (km = miles * 1.60934).  
+It returns a mash of companies in a radius of up to 20 miles who are competing in the same category (i.e. "dentist" or "hotel"). The results during the beta are limited to 20 companies per query. All results are ordered by distance from the geo point in miles (km = miles * 1.60934).  
 
 ********    
 
