@@ -96,7 +96,7 @@ It returns a mash of companies in a radius of up to 20 miles who are competing i
 
 KNOWN ISSUE:
 In case you get a `"NoMethodError: undefined method `stringify_keys' for #<HTTParty::Response:0x007fa9231ab1b0>"`
-- It's telling you that the api key is invalid and therefore can't handle the server response. Please get a valid api key. 
+- It's telling you that the api key is invalid and therefore can't handle the server response. You can get a valid test key at [https://developer.apphera.com](https://developer.apphera.com/) .
 
 Frequent question  
 What is a Mesh?  
