@@ -5,7 +5,7 @@ module SocialMediaMonitoring
     format :json
 
     attr_reader :api_key
-    #curl -G -d "&api_key=638955fa280854f29a8b42b54cb1625e&country=de&cat_id=135&geo=53.66,10.1154" https://api.apphera.com/1/organizations
+    #curl -G -d -is "&api_key=ed08eba2bd5ef47bab6cb1944686fed2&country=de&cat_id=135&geo=53.66,10.1154" https://api.apphera.com/1/organizations
     # Get a free api_key @ https://developer.apphera.com
     def initialize(api_key=nil)
       @api_key = api_key
