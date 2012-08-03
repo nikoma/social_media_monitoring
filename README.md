@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Basic usage
 
-Sentiment Analysis
+### Sentiment Analysis
 
 require 'social_media_monitoring'  
 
@@ -38,7 +38,7 @@ sentiment.response.polarity
 sentiment.response.sentiment  
 => 0.325
 
-At this time the API supports the following languages:  
+At this time the API supports the following languages:    
 * English (en)  
 * German (de)  
 * Italian (it)  
@@ -46,7 +46,9 @@ At this time the API supports the following languages:
 * French (fr)  
 * Turkish (tr)  
 
-Keyword tracking
+****
+
+### Keyword tracking
 
 require 'social_media_monitoring'      
 `client = SocialMediaMonitoring::Client.new("987634f072b7c51db349bda9fd5cd6da")`
@@ -71,21 +73,25 @@ The search results are paginated
 
 You can get a free API key at https://developer.apphera.com
 
-Competitor search (In BETA, GERMANY ONLY!)  
+****
+
+### Competitor search (In BETA, GERMANY ONLY!)  
 
 To perform a competitor search you need to pass in the category id and the geo location as a string build from latitude and longitude.   
-You can retrieve a complete list of German category by sending a query to the API.
+You can retrieve a complete list of German category by sending a query to the API.  
+
 categories = client.categories("de")  
 `=> Returns a mash of categories`
 
 Example:  
 category_id = 135  
-geo = "53.66,10.1154"  
+geo = "53.66,10.1154"    
 
 response = client.competitors(category_id, geo)
 
-It returns a mash of companies in a radius of up to 20 miles who are competing in the same category of business. The results during the beta are limited to 20 companies per query.   
+It returns a mash of companies in a radius of up to 20 miles who are competing in the same category of business. The results during the beta are limited to 20 companies per query. All results are ordered by distance from the geo point in miles (km = miles * 1.60934).  
 
+********    
 
 
 KNOWN ISSUE:
