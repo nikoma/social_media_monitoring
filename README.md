@@ -4,7 +4,8 @@ SocialMediaMonitoring is a collection of API methods of the Apphera API (Apphera
 
 The API is a straight forward REST API you could use with any client like:    
 
-`curl -is -G -d "&api_key=ed08eba2bd5ef47bab6cb1944686fed2&country=de&cat_id=135&geo=53.66,10.1154" https://api.apphera.com/1/organizations`
+curl -is -G -d  
+`"&api_key=e23d80483193fddd72a2c364a72cd738&country=de&cat_id=135&geo=53.66,10.1154" https://api.apphera.com/1/organizations`
  
 The API is currently in BETA. I will add more methods and documentation soon.
 ## Installation
@@ -27,7 +28,7 @@ Or install it yourself as:
 
 require 'social_media_monitoring'  
 
-client = SocialMediaMonitoring::Client.new("987634f072b7c51db349bda9fd5cd6da")
+client = SocialMediaMonitoring::Client.new("e23d80483193fddd72a2c364a72cd738")
 
 
 To receive reviews pass in the company id (from competitor search or organization search) as parameter and the id of the last review you already have received. Alternatively you can pass in 0 to receive all available reviews. 
@@ -55,7 +56,7 @@ client.create_organization(name, street1,street2, state, postalcode, city, latit
 
 require 'social_media_monitoring'  
 
-client = SocialMediaMonitoring::Client.new("987634f072b7c51db349bda9fd5cd6da")
+client = SocialMediaMonitoring::Client.new("e23d80483193fddd72a2c364a72cd738")
 
 sentiment = client.sentiment("I love Ruby!","en")  
 `=> <Mash response=<Mash polarity=1 sentiment=0.325>>`
@@ -84,9 +85,9 @@ At this time the API supports the following languages:
 ### Keyword tracking
 
 require 'social_media_monitoring'        
-client = SocialMediaMonitoring::Client.new("987634f072b7c51db349bda9fd5cd6da")
+client = SocialMediaMonitoring::Client.new("e23d80483193fddd72a2c364a72cd738")
   
-`=> #<SocialMediaMonitoring::Client:0x007fa19422d390 @api_key="987634f072b7c51db349bda9fd5cd6da", @api_path="">`  
+`=> #<SocialMediaMonitoring::Client:0x007fa19422d390 @api_key="e23d80483193fddd72a2c364a72cd738", @api_path="">`  
 
 client.create_keyword("Ruby rulez")  
 `=> <Mash response=<Mash first_check="2012-07-02T23:36:32+00:00" id=553 keyword="Ruby rulez">>`
