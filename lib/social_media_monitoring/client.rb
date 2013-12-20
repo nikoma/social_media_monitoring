@@ -1,7 +1,7 @@
 module SocialMediaMonitoring
   class Client
     include HTTParty
-    base_uri 'https://api.apphera.com/1'
+    base_uri 'https://api.apphera.com/api/v1'
     format :json
 
     attr_reader :api_key
